@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CardActivity">
+
+    <!-- Vertical linear layout with a weight of 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Top of the page with a weight of 0.2 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Top middle of the page with a weight of 0.4 with a image view -->
+        <ImageView
+            android:id="@+id/iv_selected_card"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+        </ImageView>
+
+        <!-- Bottom middle of the page with a weight of 0.2 with a text view -->
+        <TextView
+            android:id="@+id/tv_pick_information"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingTop="50dp"
+            android:text="placeholder"
+            android:background="@color/dark_turquoise">
+        </TextView>
+
+        <!-- Bottom of the page with a weight of 0.2 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</LinearLayout>

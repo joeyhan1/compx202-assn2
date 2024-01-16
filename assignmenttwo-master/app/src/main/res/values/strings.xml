@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="button_start_text">Start</string>
+    <string name="first_pick">Pick your first card...</string>
+    <string name="second_pick">Pick your second card...</string>
+    <string name="first_pick_card">First pick!</string>
+    <string name="second_pick_match">Second pick... its a match!</string>
+    <string name="second_pick_unmatch">Second pick... whoops, its not a match</string>
+</resources>

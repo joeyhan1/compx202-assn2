@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image view at the left top side of the page with a weight of 0.3 -->
+    <ImageView
+        android:id="@+id/iv_face_down"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:src="@mipmap/ic_launcher"/>
+
+    <!-- Text view at the right top side of the page with a weight of 0.7 -->
+    <TextView
+        android:id="@+id/tv_card_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:padding="30dp"
+        android:text="placeholder text"
+        android:textAlignment="center"/>
+
+</LinearLayout>
